@@ -15,6 +15,7 @@ use following libraries for specific functionalities:
 9. `shadcn-ui`: For pre-built accessible UI components.
 10. `tailwindcss`: For CSS styling.
 11. `supabase`: For a backend-as-a-service with database, authentication, and APIs.
+12. `react-hook-form`: For form validation and state management.
 
 ## Directory Structure
 
@@ -133,9 +134,16 @@ use following libraries for specific functionalities:
 - Unit tests for core functionality
 - Consider integration and end-to-end tests
 
+## Shadcn-ui
+
+- use shadcn-ui as ui library.
+- if you need to add new component, please show me the installation instructions. I'll paste it into terminal.
+- example: npx shadcn@latest add card
+
 ## Supabase
 
 - if you need to add new table, please show me the create query sql. I'll paste it into supabase.
+- store sql query for `.sql` file. in /database/sql/
 
 ## Package Manager
 
